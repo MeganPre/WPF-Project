@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFpractical.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFpractical"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FFC6D9D8">
+        <Label Content="________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Center" Margin="0,44,0,0" VerticalAlignment="Top" Width="748"/>
+        <Button x:Name="btnTeacher" Content="View Teacher Page" HorizontalAlignment="Left" Height="29" Margin="328,178,0,0" VerticalAlignment="Top" Width="131" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontFamily="Candara Light" FontSize="14" Click="btnTeacher_Click"/>
+        <Button x:Name="btnSubject" Content="View Subject Page" HorizontalAlignment="Left" Height="29" Margin="329,247,0,0" VerticalAlignment="Top" Width="132" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontSize="14" FontFamily="Candara Light" Click="btnSubject_Click"/>
+        <Button x:Name="btnStudent" Content="View Student Page" HorizontalAlignment="Left" Height="29" Margin="329,109,0,0" VerticalAlignment="Top" Width="131" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontFamily="Candara Light" FontSize="14" Click="btnStudent_Click"/>
+        <Button x:Name="btmMark" Content="View Marks Page" HorizontalAlignment="Left" Height="29" Margin="329,315,0,0" VerticalAlignment="Top" Width="132" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontSize="14" FontFamily="Candara Light" Click="btmMark_Click"/>
+        <Label Content="________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="18,366,0,0" VerticalAlignment="Top" Width="748"/>
+        <Label x:Name="lbStudPort" Content="Student Portal" HorizontalAlignment="Left" Margin="327,10,0,0" VerticalAlignment="Top" FontFamily="Candara Light" FontSize="20"/>
+
+    </Grid>
+</Window>

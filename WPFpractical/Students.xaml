@@ -1,0 +1,23 @@
+﻿<Window x:Class="WPFpractical.Students"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFpractical"
+        mc:Ignorable="d"
+        Title="Students" Height="450" Width="800">
+    <Grid Background="#FFC6D9D8">
+        <Label x:Name="lbStud" Content="Student Page" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontFamily="Candara Light" FontSize="20"/>
+        <Label Content="________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Center" Margin="0,27,0,0" VerticalAlignment="Top" Width="748"/>
+        <Label Content="________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Center" Margin="0,378,0,0" VerticalAlignment="Top" Width="748"/>
+        <Button x:Name="btnBack" Content="Back" HorizontalAlignment="Left" Height="20" Margin="37,367,0,0" VerticalAlignment="Top" Width="99" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontFamily="Candara Light" FontSize="14" Click="btnBack_Click"/>
+        <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Height="20" Margin="164,368,0,0" VerticalAlignment="Top" Width="99" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontSize="14" FontFamily="Candara Light" Click="btnDelete_Click"/>
+        <Button x:Name="btnGroup" Content="Create" HorizontalAlignment="Left" Height="20" Margin="290,368,0,0" VerticalAlignment="Top" Width="99" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontSize="14" FontFamily="Candara Light" Click="btnCreate_Click"/>
+        <Button x:Name="btnRead" Content="Read" HorizontalAlignment="Left" Height="20" Margin="420,367,0,0" VerticalAlignment="Top" Width="99" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontSize="14" FontFamily="Candara Light" Click="btnRead_Click"/>
+        <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Height="20" Margin="548,368,0,0" VerticalAlignment="Top" Width="99" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontSize="14" FontFamily="Candara Light" Click="btnUpdate_Click"/>
+        <TextBox x:Name="txtStudNum" HorizontalAlignment="Left" Height="20" Margin="666,367,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="99" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontSize="14" FontFamily="Candara Light"/>
+        <DataGrid x:Name="dgStud" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,58,0,102" Background="#FFC6D9D8" BorderBrush="#FFC6D9D8" HorizontalAlignment="Center" Width="748" IsSynchronizedWithCurrentItem="False"/>
+        <TextBox x:Name="txtID" HorizontalAlignment="Left" Height="18" Margin="666,344,0,0" TextWrapping="Wrap" Text="     ID Number" VerticalAlignment="Top" Width="99" Background="#FF7DBAAF" BorderBrush="#FF7DBAAF" FontFamily="Candara Light" FontSize="14"/>
+
+    </Grid>
+</Window>
